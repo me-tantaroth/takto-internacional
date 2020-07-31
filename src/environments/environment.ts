@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  imageNotFoundURL:
+    'https://storage.googleapis.com/takto-internacional.appspot.com/assets/images/image-error.png',
 };
 
 /*
