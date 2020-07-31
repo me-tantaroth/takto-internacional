@@ -7,4 +7,11 @@ import { Component, VERSION } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Angular ' + VERSION.major;
+  obj: Object = {
+    name: 'Eduard',
+    email: 'tantaroth@gmail.com'
+  };
+
+  constructor() {
+  }
 }
